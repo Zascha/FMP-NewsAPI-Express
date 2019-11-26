@@ -1,0 +1,30 @@
+{
+  "name": "w5-newsapi-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "watch": "nodemon --inspect app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zascha/FMP-NewsAPI-Express.git"
+  },
+  "author": "Aliaksandra_Zakharava@epam.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zascha/FMP-NewsAPI-Express/issues"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "data/*"
+    ]
+  },
+  "homepage": "https://github.com/Zascha/FMP-NewsAPI-Express#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.1",
+    "winston": "^3.2.1"
+  }
+}
